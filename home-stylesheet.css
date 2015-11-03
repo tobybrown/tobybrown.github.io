@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 90vh;
+    left: 0;
+    right: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.section {
+    padding-top: 10vh;
+}
+
+.section h2, p {
+    padding: 10px 15px;
+}
+
+#sitename {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-weight: 100;
+    color: #838B8B;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+
+#home {
+    padding: 0;
+    padding-top: 0;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: #838B8B;
+    position: relative;
+}
+
+#home h1 {
+    padding: 10px;
+}
+
+em {
+    font-style: normal;
+}
+
+#welcome {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#welcome div{
+    padding-left: 41%;
+    text-align: left;
+    width: 100%;
+}
+
+#welcome-blurb {
+    font-family: 'Raleway', sans-serif;
+}
+
+#bottom-bar {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 70px;
+}
+
+#bottom-bar .container-fluid {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: black;
+    border-color: black;
+}
+
+.navbar a{ 
+    color: #838B8B;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar li.active a{
+    color: #D2691E;
+    border-bottom: 3px solid #333;
+}
+
+.navbar-brand {
+    padding: 15px;
+    margin: auto 0;
+    left: 10px;
+    display: inline;
+    position: absolute;
+}
+
+.navbar ul {
+    display: inline;
+    position: absolute;
+    right: 20px;
+    margin: auto 0;
+    padding: 15px 0;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 10px;
+}
+
+#about .content {
+    padding: 0 20%;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+#about h1{
+    margin: 15% 10px 3% 10px;
+}
+
+.content p {
+    text-indent: 5e;
+    margin: 0 10px;
+    font-size: 1.3em;
+}
+
+.content a {
+    text-decoration: none;
+    color: #838B8B;
+}
